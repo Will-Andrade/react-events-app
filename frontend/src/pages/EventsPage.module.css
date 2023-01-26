@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  color: var(--color-primary-800);
+  display: flex;
+  flex-direction: column  ;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.card-content {
+  padding: 5px 10px;
+}
+
+a {
+  color: var(--color-primary-800);
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
